@@ -44,7 +44,7 @@ export default function App() {
         {/* Header */}
         <div style={{ marginBottom: "2.5rem" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
-            <img src="/instagram-comparador.png" alt="Logo" style={{ width: 120, height: 120, borderRadius: 24 }} />
+            <img src="/instagram-comparador.png" alt="Logo" style={{ width: 150, height: 150, borderRadius: 24 }} />
             <h1 style={{ fontSize: 20, fontWeight: 600, letterSpacing: "-0.02em" }}>
               Instagram — Comparador de seguidores
             </h1>
