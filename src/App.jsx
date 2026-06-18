@@ -44,14 +44,14 @@ export default function App() {
         {/* Header */}
         <div style={{ marginBottom: "2.5rem" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
-            <img src="/instagram-comparador.png" alt="Logo" style={{ width: 150, height: 150, borderRadius: 24 }} />
+            <img src="/instagram-comparador.png" alt="Logo" style={{ width: 120, height: 120, borderRadius: 24 }} />
             <h1 style={{ fontSize: 20, fontWeight: 600, letterSpacing: "-0.02em" }}>
               Instagram — Comparador de seguidores
             </h1>
+            <p style={{ fontSize: 14, color: "var(--text-secondary)", paddingLeft: 46 }}>
+              Subí tus archivos JSON exportados de Instagram para ver quién no te sigue de vuelta.
+            </p>
           </div>
-          <p style={{ fontSize: 14, color: "var(--text-secondary)", paddingLeft: 46 }}>
-            Subí tus archivos JSON exportados de Instagram para ver quién no te sigue de vuelta.
-          </p>
         </div>
 
         {/* Step 1: Upload */}
